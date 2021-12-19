@@ -17,11 +17,9 @@ export default defineComponent({
   components: {
     EventCard
   },
-  data() {
-    return {
-      events: [] as EventItem[]
-    }
-  },
+  data: () => ({
+    events: [] as EventItem[]
+  }),
   methods: {
     addEvento(novoEvento: EventItem) {
       this.events.push(novoEvento)
