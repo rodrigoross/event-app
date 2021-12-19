@@ -8,8 +8,8 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 
-import EventCard from '../components/EventCard.vue'
-import EventService from '../services/EventService'
+import EventCard from '@/components/EventCard.vue'
+import EventService from '@/services/EventService'
 
 export default defineComponent({
   name: 'EventList',
